@@ -1,92 +1,16 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f5f5f5;
+  background-image: url('MandalaBG.jpg');
+  background-size: cover;
+  background-color: #F7F7F7;
 }
-
-header {
-  background-color: #6c5ce7;
-  color: #fff;
-  padding: 1em;
-  text-align: center;
+.icon-space img {
+  width: 30px;
+  height: 30px;
 }
-
-header nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: space-between;
-}
-
-header nav ul li {
-  margin-right: 20px;
-}
-
-header nav a {
-  color: #fff;
-  text-decoration: none;
-}
-
-header nav a:hover {
-  color: #ccc;
-}
-
-.welcome {
-  background-color: #fff;
-  padding: 2em;
-  text-align: center;
-}
-
-.welcome h1 {
-  color: #6c5ce7;
-}
-
-.status-update {
-  background-color: #fff;
-  padding: 2em;
-}
-
-.status-update h2 {
-  color: #6c5ce7;
-}
-
-#about {
-  background-color: #fff;
-  padding: 2em;
-  text-align: center;
-}
-
-#about h2 {
-  color: #6c5ce7;
-}
-
-footer {
-  background-color: #6c5ce7;
-  color: #fff;
-  padding: 1em;
-  text-align: center;
-  clear: both;
-}
-
-footer a {
-  color: #fff;
-  text-decoration: none;
-}
-
-footer a:hover {
-  color: #ccc;
-}
-
-/* Purple effect */
-
-.purple-effect {
-  background-color: #6c5ce7;
-  color: #fff;
-  padding: 1em;
+.welcome, .status-update, #about {
+  background-color: #FFFFFF; /* light background */
+  padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
-.purple-effect:hover {
-  background-color: #5c49bc;
-}
+.welcome h1, .status-update h2
