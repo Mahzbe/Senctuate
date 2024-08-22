@@ -1,41 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Coming Soon!</title>
-	<link rel="stylesheet" href="styles.css">
-	<style>
-		/* existing styles */
-	</style>
+    <title>Coming Soon!</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* existing styles */
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+        .coming-soon {
+            text-align: center;
+            margin-top: 100px;
+        }
+        .spinner {
+            border: 10px solid #f3f3f3;
+            border-radius: 50%;
+            border-top: 10px solid #3498db;
+            width: 50px;
+            height: 50px;
+            animation: spin 2s linear infinite;
+        }
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
 </head>
 <body>
-	<header>
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="about.html">About</a></li>
-				<li><a href="blog.html">Blog</a></li>
-				<li><a href="wraca.html">WRACA Academy</a></li>
-				<li><a href="resources.html">Resources</a></li>
-				<li><a href="circles.html">Circles</a></li>
-			</ul>
-		</nav>
-	</header>
-	<main>
-		<section class="coming-soon">
-			<h2>Coming Soon!</h2>
-			<p>We're working hard to bring you the best content.</p>
-			<p>Stay tuned for our launch!</p>
-			<div class="spinner"></div>
-			<p>Support us by donating:</p>
-			<form action="(link unavailable)" method="post" target="_top">
-				<input type="hidden" name="hosted_button_id" value="https://www.paypal.com/donate/?hosted_button_id=YGA8SL4Q8XZAE">
-				<input type="image" src="(link unavailable)" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-				<img alt="" border="0" src="(link unavailable)" width="1" height="1">
-			</form>
-		</section>
-	</main>
-	<footer>
-		<p>&copy; 2024</p>
-	</footer>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="wraca.html">WRACA Academy</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="circles.html">Circles</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="coming-soon">
+            <h2>Coming Soon!</h2>
+            <p>We're working hard to bring you the best content.</p>
+            <p>Stay tuned for our launch!</p>
+            <div class="spinner"></div>
+            <p>Support us by donating:</p>
+            <form action="https://www.paypal.com/donate/?hosted_button_id=YGA8SL4Q8XZAE" method="post" target="_top">
+                <input type="hidden" name="hosted_button_id" value="YGA8SL4Q8XZAE">
+                <input type="submit" value="Donate with PayPal">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024</p>
+    </footer>
 </body>
 </html>
